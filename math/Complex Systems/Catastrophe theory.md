@@ -18,7 +18,7 @@ $V = \sum\limits_{j=l+1}^n \lambda_j(c) y^2_j(x) + f_{NM}(y_1(x,c), ..., y_l(x,c
 $l$ - кол-во параметров в ростке
 ##### Каноническая форма
 $V = Cat(l, k) + \sum\limits_{j=l+1}^n \lambda_j(c) y^2_j(x)$;  $Cat(l,k) = CG(l) + Pert(l,k)$
-![[Pasted image 20221228173433.png]]
+![image](Catastrophe_classification.png)
 *Пример*: ф-ция $V(x;c)$ зависит от 10 переменных, и 3 параметров $c$. Точка $(x^0,c^0)$ - несорсовская крит. точка. Гессиан $V$ имеет 2 собств. знач = 0, 3 отрицательных и 5 положительнхы. 
 Тогда $V=Cat(l,k) + f_M(y_3, ..., y_{10})$; $Cat(2,3) = D_{\pm 4} \implies$
 $V = (y_1^2y_2\pm y_2^3) + (a_1y_1 + a_2y_2 + a_3y_2^2) + \sum\limits_{j=3}^{10} \lambda_j(c) y^2_j(x)$ 
